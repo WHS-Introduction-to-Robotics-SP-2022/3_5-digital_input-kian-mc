@@ -14,6 +14,7 @@ void setup() {
 }
 
 void loop() {
+  delay(100);
   Serial.println(button);
   button = digitalRead(9);
   if(button == LOW) {
